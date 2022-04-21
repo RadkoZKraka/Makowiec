@@ -71,5 +71,8 @@
     <ItemGroup>
         <InterfaceDefinition Include="Main.storyboard" />
     </ItemGroup>
+    <ItemGroup>
+      <Content Include="SQLite3.sql" />
+    </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\Mac\Xamarin.Mac.CSharp.targets" />
 </Project>
